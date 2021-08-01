@@ -1,1 +1,1 @@
-web: gunicorn pokemon_store.wsgi --log-file -
+web: gunicorn pokemon_store.wsgi --log-file=-
