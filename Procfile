@@ -1,1 +1,1 @@
-web: gunicorn pokemon_store.wsgi:application --log-file - --log-level debug
+web: gunicorn pokemon_store.wsgi --log-file -
